@@ -3,6 +3,9 @@ const form = document.getElementById("calc_form");
 const operand_btns = document.querySelectorAll("button[data-type=operand]");
 const operator_btns = document.querySelectorAll("button[data-type=operator]");
 
+
+
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 });
@@ -57,3 +60,4 @@ operator_btns.forEach((btn) => {
     }
   });
 });
+

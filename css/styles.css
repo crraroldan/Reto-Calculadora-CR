@@ -9,9 +9,9 @@
 body {
   background-color: #ffffff;
   display: flex;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 16px; */
 }
 body,
 
@@ -48,6 +48,79 @@ input[type="text"] {
   background-color: #727272;
   padding: 2rem 1rem;
 }
+
+.Contenedor1{
+
+  background-color: coral;
+
+ 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+
+}
+
+.Contenedor2{
+
+  background-color: rgb(1, 179, 185);
+
+  width: 100vh;
+
+  height: 100vh;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+
+}
+
+.Contenedor3{
+
+  background-color: rgb(255, 255, 255);
+
+  width: 84vh;
+
+  height: 100vh;
+
+  
+  display: grid;
+ 
+  
+  font-size: 16px;
+
+
+  
+ 
+
+}
+
+.informador{
+
+  width: 300px;
+
+  height: 100px;
+
+  
+
+  padding: 1vh;
+
+  
+
+
+
+
+}
+
+
+
+
+
+
+
 .calc_header {
   margin-top: 90px;
   padding: 12px;
