@@ -4,16 +4,12 @@ const operand_btns = document.querySelectorAll("button[data-type=operand]");
 const operator_btns = document.querySelectorAll("button[data-type=operator]");
 
 
-
-
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 });
 
 let is_operator = false;
 let equation = [];
-
-
 
 operand_btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
@@ -60,4 +56,3 @@ operator_btns.forEach((btn) => {
     }
   });
 });
-
